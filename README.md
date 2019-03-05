@@ -120,3 +120,12 @@ for x in range(1,"total images to predict"):
 
 ```
 
+### Start training
+
+change path to cd `Mask_RCNN/samples/objects`
+
+**`python3 openbook.py train --dataset=/path/to/openbook/dataset --weights=coco`**
+
+
+
+
