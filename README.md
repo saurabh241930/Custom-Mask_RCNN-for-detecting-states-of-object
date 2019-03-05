@@ -47,9 +47,11 @@ for x in range(1,"total images to predict"):
   ```                          
 
 ## Test results
- <img src = "https://i.imgur.com/4FaCF4o.jpg"/>
-
- <img src = "https://i.imgur.com/vD1wSBc.png"/>
+Input Images               |  Predictions
+:-------------------------:|:-------------------------:
+![](https://i.imgur.com/4FaCF4o.jpg)  |  ![](https://i.imgur.com/vD1wSBc.png)
+![](https://i.imgur.com/PFYRd53.jpg)  |  ![](https://i.imgur.com/uIAHaRp.png)
+ 
 
 ## To train on your own classes
 
