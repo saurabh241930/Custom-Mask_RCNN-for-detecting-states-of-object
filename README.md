@@ -19,7 +19,8 @@ pip install imgaug \
 pip install IPython[all] 
 ```
 
-Now clone this repository
+## To make predicions on pre-trained weights
+Clone this repository
 
 * To run predictions on pre-trained weights ,download weights here [click to download weights](https://drive.google.com/open?id=1hKfu69Oac5JRh8FfGWLOkzCU-duw5pJn)
 
@@ -85,9 +86,10 @@ for x in range(1,"total images to predict"):
 ```
 
 
+### Edit the following lines in objects.py:
 
 ```python
-Edit the following lines in objects.py:
+
 
 68 > IMAGES_PER_GPU = 2    # if you have less than 11gb graphic card other wise set it to 1
 71 > NUM_CLASSES = 1 + n  # where n is no of your classes 
@@ -114,8 +116,6 @@ Edit the following lines in objects.py:
                 class_ids[i] = n
                 
 318 >  class_names = ['BG', 'object0', 'object1', ' object2', 'object3',, , ,'object n']
-
-
 
 
 ```
