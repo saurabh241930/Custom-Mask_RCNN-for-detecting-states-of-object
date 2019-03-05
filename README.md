@@ -46,6 +46,11 @@ for x in range(1,"total images to predict"):
                             title="Predictions-image{x}".format(x=x))
   ```                          
 
+## Test results
+ <img src = "https://i.imgur.com/4FaCF4o.jpg"/>
+
+ <img src = "https://i.imgur.com/vD1wSBc.png"/>
+
 ## To train on your own classes
 
 * divide amount images into 90 : 10 > train : val
