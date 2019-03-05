@@ -47,6 +47,45 @@ for x in range(1,"total images to predict"):
 
 ## To train on your own classes
 
+* divide amount images into 90 : 10 > train : val
+* annoate image based on their classes ,you can use this tool [tool link](http://www.robots.ox.ac.uk/~vgg/software/via/via.htm)
+* make sure you returned each jsons will look like this 
+
+```jsons
+
+"imagename.jpg35881": {
+        "filename": "imagename.jpg",
+        "size": 35881,
+        "regions": [
+            {
+                "shape_attributes": {
+                    "name": "polygon",
+                    "all_points_x": [
+                        232,
+                        319,
+                        330,
+                        345,
+               
+                    ],
+                    "all_points_y": [
+                        344,
+                        345,
+                        349,
+                        341,
+    
+                    ]
+                },
+                "region_attributes": {
+                    "name": "That object classsname"
+                }
+            }
+        ],
+        "file_attributes": {}
+    },
+```
+
+
+
 ```python
 Edit the following lines in objects.py:
 
