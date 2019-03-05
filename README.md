@@ -47,10 +47,10 @@ for x in range(1,"total images to predict"):
   ```                          
 
 ## Test results
- Predictions              |  Input Images
+ Predictions               |  Input Images
 :-------------------------:|:-------------------------:
-![](https://i.imgur.com/vD1wSBc.png)  |  ![](https://i.imgur.com/4FaCF4o.jpg )
-![](https://i.imgur.com/uIAHaRp.png)  |  ![](https://i.imgur.com/PFYRd53.jpg)
+![](https://i.imgur.com/vD1wSBc.png =400x200)  |  ![](https://i.imgur.com/4FaCF4o.jpg )
+![](https://i.imgur.com/uIAHaRp.png =300x150)  |  ![](https://i.imgur.com/PFYRd53.jpg)
  
 
 ## To train on your own classes
