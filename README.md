@@ -49,8 +49,8 @@ for x in range(1,"total images to predict"):
 ## Test results
  Predictions                                              |  Input Images
 :--------------------------------------------------------:|:-------------------------:
-<img src="https://i.imgur.com/vD1wSBc.png" width="600" /> |  ![](https://i.imgur.com/4FaCF4o.jpg )
-<img src="https://i.imgur.com/uIAHaRp.png"  width="600" />|  ![](https://i.imgur.com/PFYRd53.jpg)
+<img src="https://i.imgur.com/vD1wSBc.png" width="600" /> | <img src=" https://i.imgur.com/4FaCF4o.jpg" width="600" />
+<img src="https://i.imgur.com/uIAHaRp.png"  width="600" />| <img src="https://i.imgur.com/PFYRd53.jpg"  width="600" />
  
 
 ## To train on your own classes
