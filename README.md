@@ -21,7 +21,7 @@ pip install IPython[all]
 
 Now clone this repository
 
-* To run predictions on pre-trained weights ,download weights here [!click to download weights](https://drive.google.com/open?id=1hKfu69Oac5JRh8FfGWLOkzCU-duw5pJn)
+* To run predictions on pre-trained weights ,download weights here [click to download weights](https://drive.google.com/open?id=1hKfu69Oac5JRh8FfGWLOkzCU-duw5pJn)
 
 * place **`mask_rcnn_objects_0030-gen2(old2).h5`** inside `Mask_RCNN/logs/objects_old/` (make it if does not exist)
 
@@ -44,3 +44,20 @@ for x in range(1,"total images to predict"):
                             dataset.class_names, prediction['scores'], ax=ax,
                             title="Predictions-image{x}".format(x=x))
   ```                          
+
+## To train on your own classes
+
+```python
+Edit the following lines in objects.py:
+
+68 > IMAGES_PER_GPU = 2    # if you have less than 11gb graphic card other wise set it to 1
+71 > NUM_CLASSES = 1 + n  # where n is no of your classes 
+77 > DETECTION_MIN_CONFIDENCE = 0.9 # adjust confidence in your training 0.9 => 90% 
+90 > self.add_class("balloon", 1, "object0")    > :
+>    self.add_class("objects", 1, "object1")
+.    self.add_class("objects", 2, "object2")
+.     
+.    self.add_class("objects", n, "object nth")
+
+```
+
