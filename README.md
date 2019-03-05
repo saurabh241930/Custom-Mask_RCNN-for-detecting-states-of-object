@@ -73,6 +73,10 @@ Edit the following lines in objects.py:
                 .
             elif p['name'] == 'object n':
                 class_ids[i] = n
+                
+318 >  class_names = ['BG', 'object0', 'object1', ' object2', 'object3',, , ,'object n']
+
+
 
 
 ```
