@@ -19,24 +19,7 @@ pip install imgaug \
 pip install IPython[all] \
 ```
 
-Make following directory structure:
+Now clone this repository
 
-Inside Mask_RCNN folder:
+* To run predictions on pre-trained weights ,download weights here [!click to download weights](https://drive.google.com/open?id=1hKfu69Oac5JRh8FfGWLOkzCU-duw5pJn)
 
-    ├── samples/
-
-        ├── objects/
-    
-            ├── dataset/
-        
-                ├── train/[training images along with its JSONS]
-             
-                ├── val/[validation images along with its JSONS]
-             
-                ├── objects.py
-             
-                ├── inspect_data.ipynb
-             
-                ├── inspect_model.ipynb
-             
-    ├── mrcnn/
