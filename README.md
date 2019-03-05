@@ -122,9 +122,11 @@ for x in range(1,"total images to predict"):
 
 ### Start training
 
-change path to cd `Mask_RCNN/samples/objects`
+change path to cd `Mask_RCNN/samples/objects` and run
 
-**`python3 openbook.py train --dataset=/path/to/openbook/dataset --weights=coco`**
+**`python3 objects.py train --dataset=/path/to/openbook/dataset --weights=coco`**
+
+after training your latest weights should be saved in logs/objects(hash no) to  run prediction using follow the prediction process give above just  change the weight directory
 
 
 
