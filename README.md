@@ -25,7 +25,7 @@ Now clone this repository
 
 * place **`mask_rcnn_objects_0030-gen2(old2).h5`** inside `Mask_RCNN/logs/objects_old/` (make it if does not exist)
 
-* run `inspect_objects_model.ipnyb` cells by cells and int the last you can append
+* run `inspect_objects_model.ipnyb` cell by cell and in the last you can append
 ```python
 import PIL
 import numpy as np
@@ -54,10 +54,26 @@ Edit the following lines in objects.py:
 71 > NUM_CLASSES = 1 + n  # where n is no of your classes 
 77 > DETECTION_MIN_CONFIDENCE = 0.9 # adjust confidence in your training 0.9 => 90% 
 90 > self.add_class("balloon", 1, "object0")    > :
->    self.add_class("objects", 1, "object1")
-.    self.add_class("objects", 2, "object2")
+>    self.add_class("objects", 2, "object1")
+.    self.add_class("objects", 3, "object2")
 .     
 .    self.add_class("objects", n, "object nth")
+
+202 > for i, p in enumerate(class_names):
+            # Get indexes of pixels inside the polygon and set them to 1
+            if p['name'] == 'object0':
+                class_ids[i] = 1
+            elif p['name'] == 'object1':
+                class_ids[i] = 2
+            elif p['name'] == 'object2':
+                class_ids[i] = 3
+            elif p['name'] == 'object3':
+                class_ids[i] = 4
+                .
+                .
+            elif p['name'] == 'object n':
+                class_ids[i] = n
+
 
 ```
 
