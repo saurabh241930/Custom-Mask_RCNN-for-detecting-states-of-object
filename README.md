@@ -6,20 +6,20 @@ Make following directory structure:
 
 Mask_RCNN/
 
-├── samples/
+    ├── samples/
 
-    ├── objects/
+        ├── objects/
     
-        ├── dataset/
+            ├── dataset/
         
-             ├── train/[training images along with its JSONS]
+                ├── train/[training images along with its JSONS]
              
-             ├── val/[validation images along with its JSONS]
+                ├── val/[validation images along with its JSONS]
              
-             ├── objects.py
+                ├── objects.py
              
-             ├── inspect_data.ipynb
+                ├── inspect_data.ipynb
              
-             ├── inspect_model.ipynb
+                ├── inspect_model.ipynb
              
-├── mrcnn/
+    ├── mrcnn/
