@@ -1,8 +1,8 @@
 # oyo_coco
+
+<img src="https://upload.wikimedia.org/wikipedia/en/thumb/7/7a/OYO_Logo.png/250px-OYO_Logo.png"/>
+
 This is private repository of ongoing fraud prevention by using **Computer Vision**
-
-
-![](!https://upload.wikimedia.org/wikipedia/en/thumb/7/7a/OYO_Logo.png/250px-OYO_Logo.png)
 
 
 ## Finding Common Object 
