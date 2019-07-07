@@ -1,4 +1,4 @@
-# oyo_coco
+# Approach 1
 
 
 This is private repository of ongoing work for fraud prevention by using **Computer Vision**
