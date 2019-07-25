@@ -1,12 +1,6 @@
-# Approach 1
+# Pipeline
 
 
-This is private repository of ongoing work for fraud prevention by using **Computer Vision**
-
-
-## Finding Common Object 
-
-Working with multiple classes:
 
 ## Seting up enviroment
 
